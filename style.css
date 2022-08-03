@@ -1,0 +1,39 @@
+/* 
+    
+    Com base no código-fonte do documento HTML
+    index.html, implemente a estilização.
+*/
+
+*{
+    background-color: #ADD8E6;
+    font-family: sans-serif;
+}
+
+.cartao{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cartao__imagem{
+    border-radius:1ch;
+    width: 100%;
+}
+
+.cartao__cabecalho{
+}
+
+.botao{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius:1ch;
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+
+.botao-primario{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
